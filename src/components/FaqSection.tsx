@@ -19,7 +19,7 @@ export function FaqSection() {
     {
       question: "What types of insurance can I enquire about?",
       answer:
-        "You can enquire about individual and family health insurance plans, as well as vehicle insurance for cars, two-wheelers (scooters and motorbikes), and commercial vehicles. We provide guidance on both fresh policies and renewals.",
+        "You can enquire about individual and family health insurance plans, as well as vehicle insurance for ALL categories of vehicles—including two-wheelers (scooters and motorbikes), private cars, auto-rickshaws, commercial taxis, goods transport trucks, pickup vans, buses, and electric vehicles (EVs). We provide guidance on both fresh policies and renewals.",
     },
     {
       question: "How do I choose the right health insurance?",

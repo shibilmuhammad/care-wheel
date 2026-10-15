@@ -315,10 +315,13 @@ export function ContactSection() {
                   }
                   className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 shadow-xs focus:outline-none focus:ring-2 focus:ring-slate-900"
                 >
-                  <option value="Health">Health Insurance</option>
-                  <option value="Car">Car Insurance</option>
-                  <option value="Bike">Bike / Two-Wheeler Insurance</option>
-                  <option value="Other">Other / Commercial Vehicle</option>
+                  <option value="Health">Health Insurance (Individual / Family)</option>
+                  <option value="All Vehicles">Vehicle Insurance (Any Vehicle)</option>
+                  <option value="Car">Private Car Insurance</option>
+                  <option value="Two-Wheeler">Two-Wheeler (Scooter / Bike)</option>
+                  <option value="Commercial Vehicle">Commercial Vehicle (Taxi, Auto, Pickup, Truck, Bus)</option>
+                  <option value="Electric Vehicle">Electric Vehicle (EV)</option>
+                  <option value="Other">Other Insurance Enquiry</option>
                 </select>
               </div>
 

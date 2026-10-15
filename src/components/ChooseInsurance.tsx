@@ -133,17 +133,27 @@ export function ChooseInsurance() {
               <div className="p-8 sm:p-10 lg:col-span-6 flex flex-col justify-between order-2 lg:order-1">
                 <div>
                   <span className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
-                    Motor &amp; Two-Wheeler Cover
+                    All Vehicles Covered • Private &amp; Commercial
                   </span>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-                    Vehicle Insurance
+                    Vehicle Insurance (All Vehicles)
                   </h3>
                   <p className="mt-3 text-base text-slate-600 leading-relaxed">
-                    Find suitable insurance options for your car or bike. Stay road-legal and financially protected against accidents, theft, and third-party liabilities.
+                    Comprehensive insurance solutions for all types of vehicles—cars, two-wheelers, auto-rickshaws, commercial goods carriers, taxis, pickup trucks, and electric vehicles. Stay fully road-legal and financially protected.
                   </p>
 
                   {/* Curated Key Pillars */}
                   <div className="mt-6 space-y-3">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <div>
+                        <strong className="text-sm font-semibold text-slate-900">All Vehicle Categories:</strong>
+                        <span className="text-sm text-slate-600 ml-1">
+                          Tailored covers for two-wheelers, private cars, commercial taxis, auto-rickshaws, goods carriers, and fleet vehicles.
+                        </span>
+                      </div>
+                    </div>
+
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0 mt-0.5" />
                       <div>
@@ -212,7 +222,7 @@ export function ChooseInsurance() {
                 <div className="absolute top-4 left-4 rounded-xl bg-white/95 px-3 py-1.5 backdrop-blur-md shadow-xs border border-slate-200/80">
                   <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
                     <Car className="h-3.5 w-3.5 text-emerald-600" />
-                    Journey &amp; Vehicle Protection
+                    All Vehicles Covered
                   </span>
                 </div>
               </div>

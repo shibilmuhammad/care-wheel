@@ -5,7 +5,7 @@ export function HowItWorks() {
     {
       number: "01",
       title: "Tell us what you need",
-      description: "Share whether you need health protection for your family, or coverage for your car or two-wheeler.",
+      description: "Share whether you need health protection for your family, or coverage for any type of vehicle (private or commercial).",
     },
     {
       number: "02",

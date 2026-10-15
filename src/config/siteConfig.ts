@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
   },
   messages: {
     health: "Hello Carewheel, I would like to know about health insurance options.",
-    vehicle: "Hello Carewheel, I would like to know about vehicle insurance.",
+    vehicle: "Hello Carewheel, I would like to know about vehicle insurance options for my vehicle.",
     general: "Hello Carewheel, I would like to know more about your insurance services.",
   },
 };
