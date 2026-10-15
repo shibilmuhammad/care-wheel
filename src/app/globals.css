@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
+@theme {
+  --color-midnight-950: #060B14;
+  --color-midnight-900: #0B132B;
+  --color-midnight-800: #141E38;
+  --color-midnight-700: #202D4F;
+
+  --color-brand-emerald: #059669;
+  --color-brand-emerald-dark: #047857;
+  --color-brand-emerald-light: #D1FAE5;
+  --color-brand-emerald-subtle: #ECFDF5;
+
+  --color-accent-lime: #10B981;
+  --color-accent-electric: #22C55E;
+  
+  --color-surface-bg: #F8FAFC;
+  --color-surface-card: #FFFFFF;
+  --color-surface-border: #E2E8F0;
+  --color-surface-border-subtle: #EDF2F7;
+
+  --color-ink-primary: #0F172A;
+  --color-ink-secondary: #475569;
+  --color-ink-tertiary: #64748B;
+  --color-ink-muted: #94A3B8;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #F8FAFC;
+  --foreground: #0F172A;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle elevation and card borders */
+.card-premium {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 10px 30px -10px rgba(15, 23, 42, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-premium:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.04), 0 20px 40px -15px rgba(15, 23, 42, 0.09);
+}
+
+/* Restrained smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Accordion transition utility */
+details summary::-webkit-details-marker {
+  display: none;
 }
